@@ -24,5 +24,11 @@ html{
     font-size: 10px;
 }
 body{
-    font-family: 'Rubik', sans-serif; 
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--Verydarkblue); 
+    height: 100vh;
 }
+@media only screen and (max-width: 375px){
+
+}
+
