@@ -28,7 +28,55 @@ body{
     background-color: var(--Verydarkblue); 
     height: 100vh;
 }
+.report-ctn-inner,
+.work-ctn-inner,
+.play-ctn-inner,
+.study-ctn-inner,
+.exercise-ctn-inner,
+.social-ctn-inner,
+.selfcare-ctn-inner{
+    background-color: var(--Darkblue);
+}
+.work-ctn{
+    background-image: url(./assets/icon-work.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: var(--Lightredwork); 
+}
+.play-ctn{
+    background-image: url(./assets/icon-play.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: var(--Softblueplay);
+}
+.study-ctn{
+    background-image: url(./assets/icon-study.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: var(--Lightredstudy);
+}
+.exercise-ctn{
+    background-image: url(./assets/icon-exercise.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: var(--Limegreenexercise);
+}
+.social-ctn{
+    background-image: url(./assets/icon-social.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: var(--Violetsocial);
+}
+.selfcare-ctn{
+    background-image: url(./assets/icon-self-care.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: var(--Softorangeselfcare);
+}
+
+
 @media only screen and (max-width: 375px){
+
 
 }
 
