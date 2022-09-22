@@ -73,10 +73,20 @@ body{
     background-repeat: no-repeat;
     background-color: var(--Softorangeselfcare);
 }
+.report-ctn-inner{
+    background-color: var(--Blue);
+}
+.report-ctn-inner img{
+    border: 2px solid white;
+    border-radius: 50%;
+}
 
 
 @media only screen and (max-width: 375px){
-
+    .report-ctn-inner img{
+        max-width: 10rem;
+    }
+        
 
 }
 
